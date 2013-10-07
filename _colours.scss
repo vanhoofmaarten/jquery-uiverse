@@ -1,0 +1,51 @@
+﻿// Core colours
+$red: hsl(0, 80%, 60%);
+$orange: hsl(30, 95%, 60%);
+$yellow: hsl(60, 80%, 45%);
+$green: hsl(90, 80%, 40%);
+$blue: hsl(210, 80%, 40%);
+$cyan: hsl(180, 80%, 40%);
+$indigo: hsl(270, 80%, 40%);
+$violet: hsl(300, 70%, 35%);
+
+// Company colours
+$pattonair-blue: #288CF0;
+$pattonair-navy: #004E94;
+
+// Main colour
+$primary-colour: $blue;
+// a complimentary colour
+$secondary-colour: #8c8c8c;
+// a contradictory colour
+$tertiary-colour: adjust-hue($primary-colour, 180);
+
+// primary variants
+$primary-colour-lighten: lighten($primary-colour, 10%);
+$primary-colour-lighten-more: lighten($primary-colour, 60%);
+$primary-colour-darken: darken($primary-colour, 15%);
+$primary-colour-darken-less: darken($primary-colour, 8%);
+$primary-text-colour: #000;
+$primary-colour-alt-row: lighten($primary-colour-lighten, 10%);
+
+// secondary variants
+$secondary-colour-lighten: lighten($secondary-colour, 10%);
+$secondary-colour-darken: darken($secondary-colour, 25%);
+
+$primary-color: $primary-colour;
+$secondary-color: $secondary-colour;
+// tertiary vertical-align
+
+$rag-red: hsl(0, 100%, 90%);
+$rag-amber: adjust-hue($rag-red, 60);
+$rag-green: adjust-hue($rag-red, 120);
+
+$blue: lighten($primary-colour, 40%);
+
+$grad1: lighten($primary-colour, 10%);
+$grad2: darken($grad1, 10%);
+$grad3: darken($grad2, 10%);
+
+$pink: adjust-hue($blue, 90);
+
+$blue-highlight: darken($blue, 5%);
+$pink-highlight: darken($pink, 5%);
